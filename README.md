@@ -46,10 +46,6 @@ It also supports running directly with pipx without installation.
 pipx run pypipe-ppp <args>
 ```
 
-You can also use it with [Wasmer](https://wasmer.io/):
-```sh
-alias ppp="wasmer run bugen/pypipe -- "
-```
 
 ## Basic usage and Examples
 
@@ -905,5 +901,6 @@ ppp line ... <input.txt
 
 ### Performance
 pypipe prioritizes ease of use and doesn't focus on high performance (as Python itself is not particularly fast). If you require high performance, it's advisable to use other excellent commands like [awk](https://www.gnu.org/software/gawk/manual/gawk.html). -->
-#   p i p y p e l i n e  
+#   p i p y p e l i n e 
+ 
  
